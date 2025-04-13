@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Tag from "./Tag";
-/// @ts-expect-error: Needed for dynamic type mismatch in motion component
 import "intersection-observer";
 import { useInView } from "react-intersection-observer";
 

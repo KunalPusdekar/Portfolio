@@ -1,7 +1,6 @@
 "use client";
 import { useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
-/// @ts-expect-error: Used to bypass animation typing issue
 import "intersection-observer";
 import { useInView } from "react-intersection-observer";
 

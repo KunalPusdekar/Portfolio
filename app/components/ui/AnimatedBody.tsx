@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
-/// @ts-expect-error: Required to bypass type issue for animation logic
 import { useInView } from "react-intersection-observer";
 
 type AnimatedBodyProps = {
