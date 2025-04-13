@@ -85,6 +85,7 @@ export default function Hero() {
             </motion.div>
           </motion.div>
         </motion.div>
+
         <motion.h1
           className="text-[32px] smm:text-[40px] md:text-5xl lg:text-6xl xl:text-7xl leading-tight font-bold"
           initial={{ opacity: 0 }}
@@ -100,10 +101,9 @@ export default function Hero() {
         <motion.p
           initial={{ opacity: 0 }}
           animate={animateIn2}
-          className="text-white/40  text-xl smm:text-2xl lg:text-3xl xl:text-4xl mt-3 smm:mt-6 "
+          className="text-white/40 text-xl smm:text-2xl lg:text-3xl xl:text-4xl mt-3 smm:mt-6"
         >
           currently building real-world projects and learning by doing.
-
         </motion.p>
       </div>
 
@@ -121,7 +121,7 @@ export default function Hero() {
             priority
             fill
             alt="Ade's picture"
-            className="bg-image-radial  pt-10"
+            className="bg-image-radial pt-10"
           />
         </motion.div>
       </div>
