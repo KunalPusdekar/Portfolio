@@ -2,14 +2,13 @@
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
 import {
-  delay,
   easeIn,
   easeInOut,
   motion,
   useScroll,
   useTransform,
 } from "framer-motion";
-// @ts-expect-error
+/// @ts-expect-error: Required for intersection-observer polyfill in older browsers
 import "intersection-observer";
 import { useInView } from "react-intersection-observer";
 import { useView } from "@/contexts/ViewContext";

@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { Syne } from "next/font/google";
-import { motion } from "framer-motion";
 import AnimatedTitle from "../ui/AnimatedTitle";
 import AnimatedBody from "../ui/AnimatedBody";
 import ResumeButton from "./Resume_Button";

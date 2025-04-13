@@ -1,5 +1,4 @@
 "use client";
-import { useView } from "@/contexts/ViewContext";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import { Link } from "react-scroll";
 import React from "react";
@@ -7,7 +6,7 @@ import React from "react";
 const curYear = new Date().getFullYear();
 
 export default function Footer() {
-  const { setSectionInView } = useView();
+
 
   return (
     <section

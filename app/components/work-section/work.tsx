@@ -4,7 +4,7 @@ import FolioCard from "./FolioCard";
 import Title from "../ui/Title";
 import { useView } from "@/contexts/ViewContext";
 import Education from "./EducationTimeline";
-// @ts-expect-error
+/// @ts-expect-error: Needed for dynamic type mismatch in motion component
 import "intersection-observer";
 import { useInView } from "react-intersection-observer";
 import Timeline from "./Timeline";

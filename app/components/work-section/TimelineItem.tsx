@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./TimelineItem.module.css";
 
-// @ts-expect-error
+/// @ts-expect-error: Needed for dynamic type mismatch in motion component
 import "intersection-observer";
 import { useInView } from "react-intersection-observer";
 

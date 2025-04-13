@@ -1,9 +1,7 @@
 "use client";
-import { Syne } from "next/font/google";
 import Title from "../ui/Title";
 import TimelineItem from "./TimelineItem";
 
-const syne = Syne({ subsets: ["latin"] });
 
 const TimelineData = [
   {
