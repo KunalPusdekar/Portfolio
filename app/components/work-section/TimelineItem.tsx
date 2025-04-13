@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./TimelineItem.module.css";
 
-// @ts-ignore
+// @ts-expect-error
 import "intersection-observer";
 import { useInView } from "react-intersection-observer";
 

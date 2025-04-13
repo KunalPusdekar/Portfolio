@@ -4,7 +4,7 @@ import FolioCard from "./FolioCard";
 import Title from "../ui/Title";
 import { useView } from "@/contexts/ViewContext";
 import Education from "./EducationTimeline";
-// @ts-ignore
+// @ts-expect-error
 import "intersection-observer";
 import { useInView } from "react-intersection-observer";
 import Timeline from "./Timeline";

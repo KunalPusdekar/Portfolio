@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
-// @ts-ignore
+// @ts-expect-error
 import "intersection-observer";
 import { useInView } from "react-intersection-observer";
 

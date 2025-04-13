@@ -5,7 +5,7 @@ import Link from "next/link";
 import React from "react";
 import Tag from "./Tag";
 
-// @ts-ignore
+// @ts-expect-error
 import "intersection-observer";
 import { useInView } from "react-intersection-observer";
 
