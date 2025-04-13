@@ -34,14 +34,14 @@ export default function About() {
       <div className="grid grid-cols-1 lg:grid-cols-[8.5fr_3.5fr] gap-8 mt-6">
         <div className="grid grid-cols-1 antialiased gap-6 text-white/80 text-xl md:text-2xl">
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            Hey, I’m Kunal Pusdekar — a passionate full-stack developer and
+            Hey, I&#39;m Kunal Pusdekar — a passionate full-stack developer and
             AI/ML enthusiast based in Nagpur, Maharashtra. I specialize in
-            turning ideas into powerful digital solutions that don’t just look
-            good, but work flawlessly too. Whether it's building intuitive UIs
-            or engineering smart ML models, I'm all about impactful innovation.
+            turning ideas into powerful digital solutions that don&#39;t just look
+            good, but work flawlessly too. Whether it&#39;s building intuitive UIs
+            or engineering smart ML models, I&#39;m all about impactful innovation.
           </AnimatedBody>
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            As a Computer Science undergraduate (2022–2026), I've been diving
+            As a Computer Science undergraduate (2022–2026), I&#39;ve been diving
             deep into web development and AI/ML through hands-on projects,
             online courses, and internships. My curiosity and drive to learn
             have helped me build full-stack applications, explore cloud-based ML

@@ -28,9 +28,9 @@ const Resume: React.FC = () => {
           Resume
         </AnimatedTitle>
         <AnimatedBody className="text-lg md:text-xl text-white/70 max-w-3xl mx-auto leading-[34px] md:leading-[39px]">
-          I'm a third-year Computer Science student with a solid foundation in software development,
+          I&#39;m a third-year Computer Science student with a solid foundation in software development,
           currently honing my skills as a full stack web developer. I love solving problems, working with real-world
-          technologies, and constantly challenging myself. Whether it’s contributing to innovative startups or exploring
+          technologies, and constantly challenging myself. Whether it&#39;s contributing to innovative startups or exploring
           AI/ML in the cloud — I thrive in dynamic, hands-on environments.
         </AnimatedBody>
         <div className="mt-10 sm:mt-20 lg:mt-10 mx-auto w-fit">
