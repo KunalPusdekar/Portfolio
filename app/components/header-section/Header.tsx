@@ -25,7 +25,8 @@ export default function Header() {
           <Icon
             onClick={() => setMenuOpen(!menuOpen)}
             className="cursor-pointer flex md:hidden text-2xl"
-            icon={`${menuOpen ? "gg:close" : "lucide:menu"}`}
+            icon={menuOpen ? "gg:close" : "lucide:menu"}
+
           />
 
           <ul className="hidden md:flex gap-6 lg:gap-10 xl:gap-12 text-white/25">

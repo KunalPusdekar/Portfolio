@@ -1,6 +1,7 @@
 "use client";
 import { Icon } from "@iconify/react/dist/iconify.js";
-import { Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
+
 import React from "react";
 
 const curYear = new Date().getFullYear();
@@ -17,7 +18,7 @@ export default function Footer() {
         <span className="text-xl sm:text-2xl">&copy;</span> {curYear} · KUNAL
         PUSDEKAR · ALL RIGHTS RESERVED
       </p>
-      <Link
+      <ScrollLink
         className="md:flex hidden items-center gap-1 leading-tight"
         to="home"
         smooth={true}
@@ -28,7 +29,7 @@ export default function Footer() {
       >
         <Icon icon="mdi:arrow-top" className="text-2xl rounded-2xlt" />
         <p className="underline leading-tight">SCROLL TO TOP</p>
-      </Link>
+      </ScrollLink>
     </section>
   );
 }

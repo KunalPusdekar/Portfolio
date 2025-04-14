@@ -1,8 +1,7 @@
-"use client"; // This ensures the component is rendered on the client side
+// app/page.tsx
+"use client"; // only if you're using client-side only components
 
-import dynamic from "next/dynamic";
-
-const Home = dynamic(() => import("./components/Home"), { ssr: false });
+import Home from "./components/Home";
 
 export default function Page() {
   return <Home />;
