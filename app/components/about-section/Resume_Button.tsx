@@ -1,4 +1,3 @@
-// app/components/resume-section/Resume_Button.tsx
 "use client";
 
 import { useRef } from "react";
@@ -11,7 +10,8 @@ export default function DownloadResumeButton() {
     margin: "0px 0px -100px 0px",
   });
 
-  const RESUME_URL = "https://drive.google.com/uc?export=download&id=1WWDBrrBBHzVnZot6ri7Mbf5Y6u1eRYZa";
+  const RESUME_URL =
+    "https://drive.google.com/uc?export=download&id=1WWDBrrBBHzVnZot6ri7Mbf5Y6u1eRYZa";
 
   const handleDownload = () => {
     const link = document.createElement("a");
