@@ -6,7 +6,11 @@ import { useView } from "@/contexts/ViewContext";
 import { useInView } from "react-intersection-observer";
 import AnimatedBody from "../ui/AnimatedBody";
 import AnimatedTitle from "../ui/AnimatedTitle";
-import ResumeButton from "./Resume_Button";
+import dynamic from "next/dynamic";
+// 👇 dynamically import the resume button with SSR disabled
+const DownloadResumeButton = dynamic(() => import("./Resume_Button"), {
+  ssr: false,
+});
 
 const syne = Syne({ subsets: ["latin"] });
 
@@ -108,7 +112,7 @@ export default function About() {
         </div>
       </div>
       <div className="mt-10 sm:mt-20 lg:mt-10 mx-auto w-fit">
-        <ResumeButton />
+        < DownloadResumeButton/>
       </div>
     </section>
   );

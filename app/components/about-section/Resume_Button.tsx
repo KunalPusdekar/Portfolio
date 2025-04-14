@@ -1,4 +1,6 @@
+// app/components/resume-section/Resume_Button.tsx
 "use client";
+
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
@@ -9,9 +11,7 @@ export default function DownloadResumeButton() {
     margin: "0px 0px -100px 0px",
   });
 
-  // 🔁 Replace this with your actual public resume URL
-  const RESUME_URL = "https://drive.google.com/uc?export=download&id=1WWDBrrBBHzVnZot6ri7Mbf5Y6u1eRYZa"
-
+  const RESUME_URL = "https://drive.google.com/uc?export=download&id=1WWDBrrBBHzVnZot6ri7Mbf5Y6u1eRYZa";
 
   const handleDownload = () => {
     const link = document.createElement("a");
@@ -29,7 +29,7 @@ export default function DownloadResumeButton() {
       initial={{ opacity: 0 }}
       animate={{ opacity: isInView ? 1 : 0 }}
       transition={{ duration: 0.5 }}
-      className="px-6 py-3 text-black bg-amber-50 text-lg  font-medium rounded-2xl bg-gradient-to-r from-[#d9d9d91f] to-[#7373731f] backdrop-blur-md border border-white/10 hover:scale-[1.03] transition-all duration-300"
+      className="px-6 py-3 text-black bg-amber-50 text-lg font-medium rounded-2xl bg-gradient-to-r from-[#d9d9d91f] to-[#7373731f] backdrop-blur-md border border-white/10 hover:scale-[1.03] transition-all duration-300"
     >
       Download Resume
     </motion.button>
